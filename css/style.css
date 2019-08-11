@@ -1,0 +1,93 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: gray;
+    background-image: url(../images/psychedelic_pattern.png);
+    height: 50em;
+}
+
+@media screen and (max-width: 480px){}
+@media screen and (max width: 768px){}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+#name{
+    background: #4aaaa5;
+    margin-left: 5%;
+    width:25%;
+    padding: 10px;
+    color: white;
+    border: 2px solid teal;
+    text-align: center;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+#navbar{
+    float: right;
+    padding: 10px;
+    text-align: right;
+}
+
+section{
+    background:#ffffff;
+    border: 2px solid #dddddd;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8em;
+}
+
+#about{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+    width:95%;
+    padding: 10px;
+    color: teal;
+    border: 2px solid white;
+    text-align: left;
+    border-bottom: 4px solid gray;
+    margin-bottom: 1em;
+}
+
+
+img{
+float: left;
+margin-right: 1em;
+} 
+
+footer{
+    width: 100%;
+    padding-top: 1em;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    text-align: center;
+    margin-top: 3em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3%;
+}
+
+p{
+    padding:3px;
+}
